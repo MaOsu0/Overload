@@ -1,3 +1,5 @@
+import data.Point;
+
 public class CalcTest {
     public static void main(String[] args) {
         Calculator calculator = new Calculator();
@@ -5,4 +7,5 @@ public class CalcTest {
         calculator.printSub(4,2);
 
     }
+
 }
