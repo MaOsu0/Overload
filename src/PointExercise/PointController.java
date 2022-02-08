@@ -4,6 +4,7 @@ import data.Point;
 
 public class PointController {
 
+
         public void addX(Point point) {
             point.setX(point.getX() + 1);
             System.out.println("Współrzędna X to " + point.getX() + " Współrzędna Y to " + point.getY());
